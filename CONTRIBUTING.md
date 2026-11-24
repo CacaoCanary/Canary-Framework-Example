@@ -1,11 +1,11 @@
 # Contributing / 贡献指南
 
-本仓库用两个形态不同的真实项目演示 [Canary Framework](https://github.com/HotcocoaCanary/Canary-Framework)
+本仓库用两个形态不同的真实项目演示 [Canary Framework](https://github.com/CacaoCanary/Canary-Framework)
 的用法。欢迎修正、改进示例，或补充新的场景。
 This repository demonstrates Canary Framework with two deliberately different projects.
 Fixes, improvements and new scenarios are welcome.
 
-框架本身的问题、新 API 的提议请到[主仓库](https://github.com/HotcocoaCanary/Canary-Framework)；
+框架本身的问题、新 API 的提议请到[主仓库](https://github.com/CacaoCanary/Canary-Framework)；
 示例只使用框架已发布的公开 API。
 Framework issues and API proposals belong in the main repository; examples use only the
 framework's released public API.
@@ -15,7 +15,7 @@ framework's released public API.
 两个示例各是一个独立的 uv 工程 / Each example is a standalone uv project:
 
 ```bash
-git clone https://github.com/HotcocoaCanary/Canary-Framework-Example.git
+git clone https://github.com/CacaoCanary/Canary-Framework-Example.git
 cd Canary-Framework-Example/library     # 或 / or telemetry
 uv sync
 uv run pytest

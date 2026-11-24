@@ -137,5 +137,5 @@ lifespan 启动失败 = `Server` 启动失败、已启动的依赖照常回收"�
 3. **那座"原生 FastAPI 取单元"的桥在四个场景里重复了四遍**，而且有个不显眼的正确写法：
    依赖函数必须是 `async def`，写成同步 `def` 会被 FastAPI 扔进线程池，吞吐掉到三分之一
    （实测 6300 → 2022 req/s）。用户决定不由框架提供（不包别人的框架），改为写进
-   [`server.md` 的"在别的框架的接口里用单元"一节](https://hotcocoacanary.github.io/Canary-Framework/zh/extensions/server/)；
+   [`server.md` 的"在别的框架的接口里用单元"一节](https://cacaocanary.github.io/Canary-Framework/zh/extensions/server/)；
    [`bridge.py`](shop/bridge.py) 的注释指向那里。
