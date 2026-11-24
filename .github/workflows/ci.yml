@@ -69,7 +69,7 @@ jobs:
       - name: Install dependencies with canary-framework from main
         run: |
           uv sync --locked --python 3.12
-          uv pip install "canary-framework @ git+https://github.com/HotcocoaCanary/Canary-Framework@main"
+          uv pip install "canary-framework @ git+https://github.com/CacaoCanary/Canary-Framework@main"
           uv run --no-sync python -c "import canary_framework as c; print('canary-framework', c.__version__)"
 
       - name: Test

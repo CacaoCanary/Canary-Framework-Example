@@ -64,7 +64,7 @@ PostgreSQL/pgvector、LLM、HTTP 采集源都只需改各自的 `.env`。
 
 ## 后三个场景：压扩展包
 
-场景三到五是为[扩展包](https://hotcocoacanary.github.io/Canary-Framework/zh/extensions/app/)
+场景三到五是为[扩展包](https://cacaocanary.github.io/Canary-Framework/zh/extensions/app/)
 （`canary_framework.web.asgi.app` / `web.asgi.server` / `config` / `test`）写的，各自挑了
 `library` 那种"一个端口、一个应用"碰不到的维度：
 
@@ -180,9 +180,9 @@ cd shop      && uv run pytest tests/test_framework_boundaries.py   # 11 条：�
 
 ## 参与 / Community
 
-- 示例的问题与改进：[Issues](https://github.com/HotcocoaCanary/Canary-Framework-Example/issues) 与 PR，见 [CONTRIBUTING](CONTRIBUTING.md)
-- 框架的使用问题与提议：[主仓库 Discussions](https://github.com/HotcocoaCanary/Canary-Framework/discussions)
-- 框架文档：[hotcocoacanary.github.io/Canary-Framework](https://hotcocoacanary.github.io/Canary-Framework/)
+- 示例的问题与改进：[Issues](https://github.com/CacaoCanary/Canary-Framework-Example/issues) 与 PR，见 [CONTRIBUTING](CONTRIBUTING.md)
+- 框架的使用问题与提议：[主仓库 Discussions](https://github.com/CacaoCanary/Canary-Framework/discussions)
+- 框架文档：[cacaocanary.github.io/Canary-Framework](https://cacaocanary.github.io/Canary-Framework/)
 - 安全问题：见 [SECURITY](SECURITY.md)；行为准则：[CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
 
 ## 许可证 / License
